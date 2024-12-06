@@ -51,6 +51,11 @@ li {
     padding: 10px 20px;
 }
 
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .Introduction {
     border-top: 2px solid rgba(101,19,114,0.48);
     border-bottom: 2px solid rgba(101,19,114,0.48);
