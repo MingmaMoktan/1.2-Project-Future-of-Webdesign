@@ -1,0 +1,52 @@
+/* Leave these body styles here. They set the font to Montserrat and removes a margin from the body. */
+body {
+    font-family: "Montserrat";
+    margin: 0px;
+    background-color: rgba(11,14,23,1);
+}
+/* Leave these img styles here. Images never should exceed the browser width. */
+img { max-width: 100%; }
+
+/* CSS3 variables (also known as custom properties) for colors.
+   Variables can be defined here for the whole document and you can utilize
+   them by using syntax: var(--variable_name).
+   For example:
+    body {
+        background: var(--background-color);
+    }
+*/
+:root {
+    --background-color: rgba(11,14,23,1);
+    --text-color: rgba(255,255,255,1);
+    --text-color-dim: rgba(255,255,255,0.64);
+
+    --separator-line-color: rgba(101,19,114,0.48);
+
+    --btn-background-color: rgba(58,11,77,1);
+    --btn-border: 2px solid rgba(101,19,114,1);
+    --btn-box-shadow: 6px 0 27px 14px rgba(58,11,77,0.78);
+
+    --form-background-color: rgba(9,6,47,1);
+    --form-border-color: rgba(101,19,114,0.46);
+    --form-text-placeholder-color: rgba(255,255,255,0.26);
+}
+
+/* Your styles go below for the 1060px resolution */
+
+body {
+    /* Example on using the color variable for background */
+    background-color: var(--background-color);
+    margin: 10px;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    /* Example on using the color variables for text */
+    color: var(--text-color-dim);
+}
