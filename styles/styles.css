@@ -51,6 +51,11 @@ li {
     padding: 10px 20px;
 }
 
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .Introduction {
     border-top: 2px solid rgba(101,19,114,0.48);
     border-bottom: 2px solid rgba(101,19,114,0.48);
@@ -97,14 +102,12 @@ li {
                 -0px -0px 20px 4px rgb(16, 131, 16);
 }
 
-
 .About {
     border-bottom: 2px solid rgba(101,19,114,0.48);
     text-align: center;
     padding-top: 150px;
     padding-bottom: 100px;
 }
-
 
 .flexbox-container {
     display: flex;
