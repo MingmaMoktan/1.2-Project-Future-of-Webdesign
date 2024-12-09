@@ -89,8 +89,7 @@ a {
     padding: 15px 0px;
     width: 25%;
     color: aliceblue;
-    box-shadow: 0px 0px 20px 4px rgba(101,19,114,0.46),
-                -0px -0px 20px 4px rgba(101,19,114,0.46);
+    box-shadow: 6px 0 27px 14px rgba(58,11,77,0.78);
     letter-spacing: 0.8px;
     animation-duration: 0.5s;
     transition: 0.5s;
@@ -110,6 +109,7 @@ a {
 }
 
 .flexbox-container {
+    margin: 0 auto;
     display: flex;
     justify-content:space-around;
 }
@@ -128,17 +128,16 @@ a {
 
 .head2-about {
     margin-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .flexbox-container-2 {
     width: 38%;
-    justify-content: center;
     align-items: center;
 }
 
 .image-2 {
-    object-fit: contain;
+    width: 100%;
 }
 
 form {
@@ -152,7 +151,7 @@ form div h1 {
 
 form div p {
     margin-top: 0px;
-    margin-bottom: 55px;
+    margin-bottom: 40px;
 }
 
 .sign-up-box {
@@ -162,9 +161,7 @@ form div p {
     margin: 0 auto;
     padding: 40px 25px;
     border-radius: 30px;
-    box-shadow: 0px 0px 10px 2px rgba(126, 50, 138, 0.46),
-                -0px -0px 10px 2px rgba(126, 50, 138, 0.46),
-                inset 0px 0px 4px 0.3px rgba(126, 50, 138, 0.46);
+    box-shadow: 6px 0 27px 14px rgba(58,11,77,0.78);
 }
 
 .input-box {
@@ -181,8 +178,7 @@ input {
     border-radius: 10px;
     padding: 15px 0px;
     letter-spacing: 0.8px;
-    box-shadow: 0px 0px 20px 4px rgba(101,19,114,0.46),
-                -0px -0px 20px 4px rgba(101,19,114,0.46);
+    box-shadow: 6px 0 27px 14px rgba(58,11,77,0.78);
 }
 
 .sign-up-btn {
@@ -193,8 +189,7 @@ input {
     padding: 15px 0px;
     width: 58%;
     color: aliceblue;
-    box-shadow: 0px 0px 20px 4px rgba(101,19,114,0.46),
-                -0px -0px 20px 4px rgba(101,19,114,0.46);
+    box-shadow: 6px 0 27px 14px rgba(58,11,77,0.78);
     animation-duration: 0.5s;
     transition: 0.5s;
 }
